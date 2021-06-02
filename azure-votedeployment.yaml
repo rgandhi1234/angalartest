@@ -16,7 +16,8 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: azure-vote-back
-        image: rajesh110.azurecr.io/dockertestapi
+        image:
+        repository: rajesh110.azurecr.io/dockertestapi
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
